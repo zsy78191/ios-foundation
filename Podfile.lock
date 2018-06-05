@@ -1,0 +1,22 @@
+PODS:
+  - RegexKitLite-NoWarning (1.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - RegexKitLite-NoWarning
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RegexKitLite-NoWarning
+    - YYKit
+
+SPEC CHECKSUMS:
+  RegexKitLite-NoWarning: 365d208f8187997e33d9de8baeddfc00728596d8
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 553af53cca9557e7d28444691baa4466e59f7f92
+
+COCOAPODS: 1.5.3
