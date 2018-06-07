@@ -29,6 +29,14 @@
  */
 - (NSDate*)lunar_calculate:(NSCalendarUnit)unit value:(NSInteger)value;
 
+
+/**
+ 计算日期差
+
+ @param date 目的日期
+ @param unit 统计单位
+ @return 计数值
+ */
 - (NSInteger)calculateFromDate:(NSDate*)date unit:(NSCalendarUnit)unit;
 
 @end

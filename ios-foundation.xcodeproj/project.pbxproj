@@ -14,6 +14,13 @@
 		D455FD6620C670E200C09608 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = D455FD6520C670E200C09608 /* TestObj.m */; };
 		D455FD6B20C6718500C09608 /* NSDate+Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = D455FD6820C6718500C09608 /* NSDate+Calculation.m */; };
 		D455FD6C20C6718500C09608 /* NSDate+Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = D455FD6920C6718500C09608 /* NSDate+Lunar.m */; };
+		D455FE1B20C7701F00C09608 /* UIViewController+ios_uikit.m in Sources */ = {isa = PBXBuildFile; fileRef = D455FE1A20C7701F00C09608 /* UIViewController+ios_uikit.m */; };
+		D499AB5920C7CAC300C3164D /* UIView+ios_uikit.m in Sources */ = {isa = PBXBuildFile; fileRef = D499AB5820C7CAC300C3164D /* UIView+ios_uikit.m */; };
+		D499AB6120C7CD9500C3164D /* UIColor+blend.m in Sources */ = {isa = PBXBuildFile; fileRef = D499AB5E20C7CD9500C3164D /* UIColor+blend.m */; };
+		D499AB6220C7CD9500C3164D /* UIColor+cui_theme.m in Sources */ = {isa = PBXBuildFile; fileRef = D499AB5F20C7CD9500C3164D /* UIColor+cui_theme.m */; };
+		D499AB6320C7CD9500C3164D /* UIImage+cui.m in Sources */ = {isa = PBXBuildFile; fileRef = D499AB6020C7CD9500C3164D /* UIImage+cui.m */; };
+		D499AB6620C7CDF000C3164D /* NSObject+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D499AB6420C7CDEF00C3164D /* NSObject+Functional.m */; };
+		D499AB6820C7DE6400C3164D /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = D499AB6720C7DE6400C3164D /* theme.plist */; };
 		D4A03A2120C504CA00339A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A2020C504CA00339A8B /* AppDelegate.m */; };
 		D4A03A2420C504CA00339A8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A2320C504CA00339A8B /* ViewController.m */; };
 		D4A03A2720C504CA00339A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A03A2520C504CA00339A8B /* Main.storyboard */; };
@@ -22,6 +29,8 @@
 		D4A03A2F20C504CA00339A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A2E20C504CA00339A8B /* main.m */; };
 		D4A03A3820C5093B00339A8B /* NSString+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A3720C5093B00339A8B /* NSString+ios_foundation.m */; };
 		D4A03A3C20C5369C00339A8B /* NSArray+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A3B20C5369C00339A8B /* NSArray+ios_foundation.m */; };
+		D4C7326620C7876E00A434FE /* UIAlertController+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7326520C7876E00A434FE /* UIAlertController+Functional.m */; };
+		D4C7326920C78FB800A434FE /* GCDQuene.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7326820C78FB800A434FE /* GCDQuene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,19 @@
 		D455FD6820C6718500C09608 /* NSDate+Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculation.m"; sourceTree = "<group>"; };
 		D455FD6920C6718500C09608 /* NSDate+Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Lunar.m"; sourceTree = "<group>"; };
 		D455FD6A20C6718500C09608 /* NSDate+Lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Lunar.h"; sourceTree = "<group>"; };
+		D455FE1920C7701F00C09608 /* UIViewController+ios_uikit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ios_uikit.h"; sourceTree = "<group>"; };
+		D455FE1A20C7701F00C09608 /* UIViewController+ios_uikit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ios_uikit.m"; sourceTree = "<group>"; };
+		D499AB5720C7CAC300C3164D /* UIView+ios_uikit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ios_uikit.h"; sourceTree = "<group>"; };
+		D499AB5820C7CAC300C3164D /* UIView+ios_uikit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ios_uikit.m"; sourceTree = "<group>"; };
+		D499AB5B20C7CD9500C3164D /* UIColor+blend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+blend.h"; sourceTree = "<group>"; };
+		D499AB5C20C7CD9500C3164D /* UIColor+cui_theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+cui_theme.h"; sourceTree = "<group>"; };
+		D499AB5D20C7CD9500C3164D /* UIImage+cui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+cui.h"; sourceTree = "<group>"; };
+		D499AB5E20C7CD9500C3164D /* UIColor+blend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+blend.m"; sourceTree = "<group>"; };
+		D499AB5F20C7CD9500C3164D /* UIColor+cui_theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+cui_theme.m"; sourceTree = "<group>"; };
+		D499AB6020C7CD9500C3164D /* UIImage+cui.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cui.m"; sourceTree = "<group>"; };
+		D499AB6420C7CDEF00C3164D /* NSObject+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Functional.m"; sourceTree = "<group>"; };
+		D499AB6520C7CDF000C3164D /* NSObject+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Functional.h"; sourceTree = "<group>"; };
+		D499AB6720C7DE6400C3164D /* theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
 		D4A03A1C20C504CA00339A8B /* ios-foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A03A1F20C504CA00339A8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4A03A2020C504CA00339A8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +76,10 @@
 		D4A03A3720C5093B00339A8B /* NSString+ios_foundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ios_foundation.m"; sourceTree = "<group>"; };
 		D4A03A3A20C5369C00339A8B /* NSArray+ios_foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ios_foundation.h"; sourceTree = "<group>"; };
 		D4A03A3B20C5369C00339A8B /* NSArray+ios_foundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ios_foundation.m"; sourceTree = "<group>"; };
+		D4C7326420C7876E00A434FE /* UIAlertController+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Functional.h"; sourceTree = "<group>"; };
+		D4C7326520C7876E00A434FE /* UIAlertController+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Functional.m"; sourceTree = "<group>"; };
+		D4C7326720C78FB800A434FE /* GCDQuene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQuene.h; sourceTree = "<group>"; };
+		D4C7326820C78FB800A434FE /* GCDQuene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQuene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +114,10 @@
 		D455FD5820C660EE00C09608 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D499AB5A20C7CD8900C3164D /* Image+Color */,
+				D499AB5720C7CAC300C3164D /* UIView+ios_uikit.h */,
+				D499AB5820C7CAC300C3164D /* UIView+ios_uikit.m */,
+				D455FE1720C76D7F00C09608 /* Contoller */,
 				D455FD5A20C6611D00C09608 /* UIApplication+ios_uikit.h */,
 				D455FD5B20C6611D00C09608 /* UIApplication+ios_uikit.m */,
 				D455FD5D20C665D900C09608 /* UIDevice+ios_uikit.h */,
@@ -99,6 +129,8 @@
 		D455FD5920C660F300C09608 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				D4C7326720C78FB800A434FE /* GCDQuene.h */,
+				D4C7326820C78FB800A434FE /* GCDQuene.m */,
 				D455FD6720C6718500C09608 /* NSDate+Calculation.h */,
 				D455FD6820C6718500C09608 /* NSDate+Calculation.m */,
 				D455FD6A20C6718500C09608 /* NSDate+Lunar.h */,
@@ -120,6 +152,39 @@
 				D455FD6520C670E200C09608 /* TestObj.m */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		D455FE1620C76D5D00C09608 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cocoa;
+			sourceTree = "<group>";
+		};
+		D455FE1720C76D7F00C09608 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7326420C7876E00A434FE /* UIAlertController+Functional.h */,
+				D4C7326520C7876E00A434FE /* UIAlertController+Functional.m */,
+				D455FE1920C7701F00C09608 /* UIViewController+ios_uikit.h */,
+				D455FE1A20C7701F00C09608 /* UIViewController+ios_uikit.m */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		D499AB5A20C7CD8900C3164D /* Image+Color */ = {
+			isa = PBXGroup;
+			children = (
+				D499AB6520C7CDF000C3164D /* NSObject+Functional.h */,
+				D499AB6420C7CDEF00C3164D /* NSObject+Functional.m */,
+				D499AB5B20C7CD9500C3164D /* UIColor+blend.h */,
+				D499AB5E20C7CD9500C3164D /* UIColor+blend.m */,
+				D499AB5C20C7CD9500C3164D /* UIColor+cui_theme.h */,
+				D499AB5F20C7CD9500C3164D /* UIColor+cui_theme.m */,
+				D499AB5D20C7CD9500C3164D /* UIImage+cui.h */,
+				D499AB6020C7CD9500C3164D /* UIImage+cui.m */,
+			);
+			path = "Image+Color";
 			sourceTree = "<group>";
 		};
 		D4A03A1320C504CA00339A8B = {
@@ -154,6 +219,7 @@
 				D4A03A2A20C504CA00339A8B /* LaunchScreen.storyboard */,
 				D4A03A2D20C504CA00339A8B /* Info.plist */,
 				D4A03A2E20C504CA00339A8B /* main.m */,
+				D499AB6720C7DE6400C3164D /* theme.plist */,
 			);
 			path = "ios-foundation";
 			sourceTree = "<group>";
@@ -161,6 +227,7 @@
 		D4A03A3520C504E500339A8B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D455FE1620C76D5D00C09608 /* Cocoa */,
 				D455FD5920C660F300C09608 /* Foundation */,
 				D455FD5820C660EE00C09608 /* UIKit */,
 			);
@@ -226,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D499AB6820C7DE6400C3164D /* theme.plist in Resources */,
 				D4A03A2C20C504CA00339A8B /* LaunchScreen.storyboard in Resources */,
 				D4A03A2920C504CA00339A8B /* Assets.xcassets in Resources */,
 				D4A03A2720C504CA00339A8B /* Main.storyboard in Resources */,
@@ -243,11 +311,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ios-foundation/Pods-ios-foundation-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RegexKitLite-NoWarning/RegexKitLite_NoWarning.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RegexKitLite_NoWarning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +353,20 @@
 				D455FD6220C66F2700C09608 /* NSObject+ios_foundation.m in Sources */,
 				D4A03A3C20C5369C00339A8B /* NSArray+ios_foundation.m in Sources */,
 				D455FD6B20C6718500C09608 /* NSDate+Calculation.m in Sources */,
+				D455FE1B20C7701F00C09608 /* UIViewController+ios_uikit.m in Sources */,
+				D499AB6320C7CD9500C3164D /* UIImage+cui.m in Sources */,
 				D455FD6C20C6718500C09608 /* NSDate+Lunar.m in Sources */,
 				D455FD5F20C665D900C09608 /* UIDevice+ios_uikit.m in Sources */,
+				D499AB6120C7CD9500C3164D /* UIColor+blend.m in Sources */,
 				D455FD5C20C6611D00C09608 /* UIApplication+ios_uikit.m in Sources */,
 				D4A03A3820C5093B00339A8B /* NSString+ios_foundation.m in Sources */,
+				D499AB6620C7CDF000C3164D /* NSObject+Functional.m in Sources */,
+				D4C7326620C7876E00A434FE /* UIAlertController+Functional.m in Sources */,
+				D4C7326920C78FB800A434FE /* GCDQuene.m in Sources */,
+				D499AB6220C7CD9500C3164D /* UIColor+cui_theme.m in Sources */,
 				D4A03A2420C504CA00339A8B /* ViewController.m in Sources */,
 				D455FD6620C670E200C09608 /* TestObj.m in Sources */,
+				D499AB5920C7CAC300C3164D /* UIView+ios_uikit.m in Sources */,
 				D4A03A2F20C504CA00339A8B /* main.m in Sources */,
 				D4A03A2120C504CA00339A8B /* AppDelegate.m in Sources */,
 			);
@@ -441,7 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gerinn.ios-foundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gerinn.ios-foundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

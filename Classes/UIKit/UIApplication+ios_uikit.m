@@ -8,6 +8,7 @@
 
 #import "UIApplication+ios_uikit.h"
 @import YYKit;
+@import SVProgressHUD;
 @implementation UIApplication (ios_uikit)
 
 - (void)test
@@ -48,6 +49,22 @@
     return ^{
         return [self appVersion];
     };
+}
+
+- (NSDate* (^)(void))installedDate
+{
+    return ^ {
+        NSURL* u = UIApplication.sharedApplication.doucumentDictionary();
+        NSDictionary*d  = [NSFileManager.defaultManager attributesOfItemAtPath:u.path error:nil];
+        return [d valueForKey:@"NSFileCreationDate"];
+    };
+}
+
+- (void)setHUDStyle
+{
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    [SVProgressHUD setMaximumDismissTimeInterval:1.0];
+    [SVProgressHUD setMinimumSize:CGSizeMake(100, 60)];
 }
 
 

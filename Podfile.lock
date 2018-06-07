@@ -1,22 +1,26 @@
 PODS:
   - RegexKitLite-NoWarning (1.1.0)
+  - SVProgressHUD (2.2.5)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - RegexKitLite-NoWarning
+  - SVProgressHUD
   - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - RegexKitLite-NoWarning
+    - SVProgressHUD
     - YYKit
 
 SPEC CHECKSUMS:
   RegexKitLite-NoWarning: 365d208f8187997e33d9de8baeddfc00728596d8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 553af53cca9557e7d28444691baa4466e59f7f92
+PODFILE CHECKSUM: 1813751b780e10e13f226ff8a34caeeb9d890a96
 
 COCOAPODS: 1.5.3

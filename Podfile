@@ -8,4 +8,5 @@ use_frameworks!
   # Pods for ios-foundation
 pod 'YYKit'
 pod 'RegexKitLite-NoWarning'
+pod 'SVProgressHUD'
 end

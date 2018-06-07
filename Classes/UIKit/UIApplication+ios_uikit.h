@@ -28,6 +28,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// Application's Build number. e.g. "123"
 @property (nullable, nonatomic, readonly) NSString * (^buildVersion)(void);
 
+@property (nullable, nonatomic, readonly) NSDate * (^installedDate)(void);
+
+
+- (void)setHUDStyle;
+
 @end
 
 NS_ASSUME_NONNULL_END

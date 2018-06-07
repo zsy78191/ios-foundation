@@ -14,7 +14,6 @@
     return [[self reverseObjectEnumerator] allObjects];
 }
 
-
 - (NSArray*)shuffle
 {
     return [self shuffle];
