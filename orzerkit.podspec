@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "orzerkit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of orzerkit. A short description of orzerkit. A short description of orzerkit. A short description of orzerkit. A short description of orzerkit. A short description of orzerkit."
 
   # This description is used to generate tags and improve search results.
@@ -137,5 +137,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "YYKit"
   s.dependency "RegexKitLite-NoWarning"
+
 
 end
