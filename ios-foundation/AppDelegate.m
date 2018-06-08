@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "UIApplication+ios_uikit.h"
+//#import "UIApplication+ios_uikit.h"
 #import "NSString+ios_foundation.h"
 #import "NSDate+Calculation.h"
 @interface AppDelegate ()
@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
  
-    [UIApplication.sharedApplication setHUDStyle];
+//    [UIApplication.sharedApplication setHUDStyle];
     return YES;
 }
 

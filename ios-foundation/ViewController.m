@@ -9,13 +9,13 @@
 #import "ViewController.h"
 #import "NSString+ios_foundation.h"
 #import "NSArray+ios_foundation.h"
-#import "UIApplication+ios_uikit.h"
-#import "UIDevice+ios_uikit.h"
+//#import "UIApplication+ios_uikit.h"
+//#import "UIDevice+ios_uikit.h"
 #import "NSObject+ios_foundation.h"
 #import "TestObj.h"
-#import "UIViewController+ios_uikit.h"
+//#import "UIViewController+ios_uikit.h"
 #import "GCDQuene.h"
-#import "IFToast.h"
+//#import "IFToast.h"
 @interface ViewController ()
 
 @end
@@ -43,9 +43,9 @@
 - (void)add:(id)sender
 {
     
-    IFToast* t = [IFToast toast];
-    [t showText:@""];
-    [t showInView:[UIApplication sharedApplication].keyWindow];
+//    IFToast* t = [IFToast toast];
+//    [t showText:@""];
+//    [t showInView:[UIApplication sharedApplication].keyWindow];
     
 //    UIAlertController* a = [self actionsheet:@"提醒".l()
 //                                   recommend:@"开始".l()
