@@ -21,6 +21,7 @@
 		D4A03A2F20C504CA00339A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A2E20C504CA00339A8B /* main.m */; };
 		D4A03A3820C5093B00339A8B /* NSString+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A3720C5093B00339A8B /* NSString+ios_foundation.m */; };
 		D4A03A3C20C5369C00339A8B /* NSArray+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A03A3B20C5369C00339A8B /* NSArray+ios_foundation.m */; };
+		D4B700A420EC6D130015A7BD /* FDUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B700A320EC6D130015A7BD /* FDUserDefault.m */; };
 		D4C7326920C78FB800A434FE /* GCDQuene.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7326820C78FB800A434FE /* GCDQuene.m */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		D4A03A3720C5093B00339A8B /* NSString+ios_foundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ios_foundation.m"; sourceTree = "<group>"; };
 		D4A03A3A20C5369C00339A8B /* NSArray+ios_foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ios_foundation.h"; sourceTree = "<group>"; };
 		D4A03A3B20C5369C00339A8B /* NSArray+ios_foundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ios_foundation.m"; sourceTree = "<group>"; };
+		D4B700A220EC6D130015A7BD /* FDUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDUserDefault.h; sourceTree = "<group>"; };
+		D4B700A320EC6D130015A7BD /* FDUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDUserDefault.m; sourceTree = "<group>"; };
 		D4C7326720C78FB800A434FE /* GCDQuene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQuene.h; sourceTree = "<group>"; };
 		D4C7326820C78FB800A434FE /* GCDQuene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQuene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +90,8 @@
 		D455FD5920C660F300C09608 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				D4B700A220EC6D130015A7BD /* FDUserDefault.h */,
+				D4B700A320EC6D130015A7BD /* FDUserDefault.m */,
 				D4C7326720C78FB800A434FE /* GCDQuene.h */,
 				D4C7326820C78FB800A434FE /* GCDQuene.m */,
 				D455FD6720C6718500C09608 /* NSDate+Calculation.h */,
@@ -284,6 +289,7 @@
 				D455FD6220C66F2700C09608 /* NSObject+ios_foundation.m in Sources */,
 				D4A03A3C20C5369C00339A8B /* NSArray+ios_foundation.m in Sources */,
 				D455FD6B20C6718500C09608 /* NSDate+Calculation.m in Sources */,
+				D4B700A420EC6D130015A7BD /* FDUserDefault.m in Sources */,
 				D455FD6C20C6718500C09608 /* NSDate+Lunar.m in Sources */,
 				D4A03A3820C5093B00339A8B /* NSString+ios_foundation.m in Sources */,
 				D4C7326920C78FB800A434FE /* GCDQuene.m in Sources */,
